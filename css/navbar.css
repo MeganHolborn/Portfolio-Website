@@ -1,0 +1,32 @@
+#navbar {
+    font-family: Roboto, sans-serif;
+    background-size: cover;
+    background-color: #b85555;
+    padding: 15px 20px;
+    transition: all 0.5s ease;
+}
+
+#navbar #logo {
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+#navbar .nav-item .nav-link {
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#navbar .nav-item .nav-link:hover {
+    background-color: #b85555;
+}
+
+#navbar.sticky .navbar-btn {
+    color: #FFFFFF;
+}
+
+#navbar.sticky {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 8px 20px;
+}

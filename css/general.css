@@ -1,0 +1,46 @@
+html, body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f3f6f5;
+}
+
+a:has(> .icon) {
+    text-decoration: none;
+}
+
+
+#main {
+    margin-top: var(--navbar-height);
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    transition: filter 0.25s;
+}
+
+.links > *:not(:first-child) {
+    margin-left: 15px;
+}
+
+.divider {
+    width: 60%;
+    margin: 0 auto;
+    color: #408077;
+}
+
+.divider-lg {
+    padding-bottom: 50px;
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #73afa7;
+    border: none;
+    display: inline-block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
